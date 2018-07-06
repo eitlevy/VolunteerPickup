@@ -28,7 +28,7 @@ public class VolunteerPlacementMain {
 
     public static void main(String[] args) throws FileNotFoundException
     {
-        DriveDurationCache.init("AIzaSyCEq5H7SqyQu5r4uoa_I_bD2KEJ_oh4Sg0");
+        DriveDurationCache.init(args[5]);
         Map<String, Volunteer> volunteers = new HashMap<>();
 
         int permitArequest = Integer.parseInt(args[0]);
